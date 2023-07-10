@@ -11,8 +11,10 @@
         font-size: 2rem;
       }
       .card {
+        display: flex;
+        flex-direction: column;
         background: white;
-        height: 600px;
+        min-height: 600px;
         max-width: 600px;
         border: 2px solid black;
         border-radius: 0.25em;
@@ -32,7 +34,7 @@
       }
       .body {
         padding: 0.5rem;
-        height: 100%;
+        flex-grow: 1;
       }
     </style>
   </head>
